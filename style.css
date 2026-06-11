@@ -15,11 +15,11 @@ background-image: radial-gradient(circle, #bbb 1px, transparent 1px);
 }
 
 body.projects {
-  background-color: rgb(245, 209, 209);
+  background-color: rgb(255, 241, 241);
 }
 
 body.blog {
-  background-color: rgb(222, 255, 222);
+  background-color: rgb(241, 255, 241);
 }
 
 .container {
