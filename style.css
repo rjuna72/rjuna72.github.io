@@ -1,5 +1,55 @@
-body {
-    background-color: #fff5ba;
-    font-family: "Times New Roman", Times, serif;
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Pages */
+body {
+  background-color: #ffffff;
+  font-family: "Times New Roman", Times, serif;
+  position: relative;
+}
+
+.container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.page {
+  background-color: #f2fbff;
+  border: 1px solid #ddd;
+  max-width: 700px;
+  padding: 4rem 6rem;
+}
+
+
+@media (max-width: 500px) {
+  .page{
+    padding: 4rem 2rem;
+  }
+}
+
+
+.stickynote {
+  background-color: #fdf1b0;
+  border: 1px solid #fff194;
+  width: 200px;
+  height: 200px;
+  padding: 1.5rem;
+  text-align: left;
+  box-shadow: 3px 3px 6px rgba(0,0,0,0.2);
+  position: fixed;
+  left: calc(16.5vw - 100px);
+  top: 50%;
+  transform: translateY(-50%) rotate(-1deg);
+}
+
+
+/* Fonts */
+.light-text{
+    color:rgb(69, 69, 81);
 }
