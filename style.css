@@ -14,6 +14,14 @@ background-image: radial-gradient(circle, #bbb 1px, transparent 1px);
   background-size: 30px 30px;
 }
 
+body.projects {
+  background-color: red;
+}
+
+body.blog {
+  background-color: green;
+}
+
 .container {
   display: flex;
   align-items: flex-start;
@@ -27,6 +35,8 @@ background-image: radial-gradient(circle, #bbb 1px, transparent 1px);
   max-width: 700px;
   padding: 4rem 6rem;
 }
+
+
 
 
 @media (max-width: 500px) {
@@ -80,4 +90,13 @@ background-image: radial-gradient(circle, #bbb 1px, transparent 1px);
 /* Fonts */
 .light-text{
     color:rgb(69, 69, 81);
+}
+
+/* Images */
+img {
+  width: 80%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  display: block;
+  margin: 1rem auto;
 }
